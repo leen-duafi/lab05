@@ -1,6 +1,7 @@
 
 .card {
   position: relative;
+  background-color: #BFB99B;
 
   &.card-plain {
     background: transparent;
@@ -80,6 +81,7 @@
   .card-blockquote {
     padding: 2rem;
     position: relative;
+    background-color: #F29544;
 
     .svg-bg {
         display: block;

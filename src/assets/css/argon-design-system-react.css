@@ -77,9 +77,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #525f7f;
+  color: #F2E18D;
   text-align: left;
-  background-color: #fff; }
+  background-color: #F2E18D; }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -419,7 +419,7 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #fff;
+  background-color: #F2E18D;
   border: 0.0625rem solid #dee2e6;
   border-radius: 0.25rem;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
@@ -447,7 +447,7 @@ code {
 kbd {
   padding: 0.2rem 0.4rem;
   font-size: 87.5%;
-  color: #fff;
+  color: #F2E18D;
   background-color: #212529;
   border-radius: 0.2rem;
   box-shadow: inset 0 -0.1rem 0 rgba(0, 0, 0, 0.25); }
@@ -1325,7 +1325,7 @@ pre {
   border-color: #dee2e6; }
 
 .table-dark {
-  color: #fff;
+  color: #F2E18D;
   background-color: #212529; }
   .table-dark th,
   .table-dark td,
@@ -1336,7 +1336,7 @@ pre {
   .table-dark.table-striped tbody tr:nth-of-type(odd) {
     background-color: rgba(255, 255, 255, 0.05); }
   .table-dark.table-hover tbody tr:hover {
-    color: #fff;
+    color: #F2E18D;
     background-color: rgba(255, 255, 255, 0.075); }
 
 @media (max-width: 575.98px) {
@@ -1392,7 +1392,7 @@ pre {
   font-weight: 400;
   line-height: 1.5;
   color: #8898aa;
-  background-color: #fff;
+  background-color:#F2E18D;
   background-clip: padding-box;
   border: 1px solid #cad1d7;
   border-radius: 0.25rem;
@@ -13730,7 +13730,9 @@ textarea[resize="horizontal"] {
 .section-profile-cover {
   height: 580px;
   background-size: cover;
-  background-position: center center; }
+  background-position: center center; 
+  background-color: red;
+}
 
 @media (max-width: 991.98px) {
   .section-profile-cover {

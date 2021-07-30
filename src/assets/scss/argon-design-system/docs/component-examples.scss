@@ -118,7 +118,7 @@
   margin-right: 4.5rem;
   background-color: lighten($ct-primary, 25%);
   border-radius: .25rem;
-}
+  
 
 .ct-example-container-fluid {
   max-width: none;
@@ -513,4 +513,5 @@
     text-overflow: ellipsis;
     vertical-align: middle;
   }
+}
 }

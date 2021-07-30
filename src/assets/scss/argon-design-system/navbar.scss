@@ -1,4 +1,5 @@
 .navbar {
+    color: crimson;
   &.navbar-absolute{
     position: absolute;
     z-index: 1050;
@@ -218,7 +219,7 @@
     .navbar-transparent {
         .navbar-nav {
             .nav-link {
-                color: $navbar-dark-color;
+                color: #D95F69;
 
                 @include hover-focus {
                     color: $navbar-dark-hover-color;
